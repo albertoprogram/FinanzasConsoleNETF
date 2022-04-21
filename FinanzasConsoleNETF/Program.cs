@@ -10,6 +10,9 @@ namespace FinanzasConsoleNETF
     {
         static void Main(string[] args)
         {
+            Clientes cliente = new Clientes();
+
+            cliente.InsertarCliente();
         }
     }
 }
