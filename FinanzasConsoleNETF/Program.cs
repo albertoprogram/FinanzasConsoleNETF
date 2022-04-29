@@ -8,6 +8,9 @@ namespace FinanzasConsoleNETF
 {
     class Program
     {
+        public const string conexionDb =
+            @"Server=.\;Database=Finanzas;User Id=desarrollo;Password=desarrollo;Pooling=false;";
+
         static void Main(string[] args)
         {
             Clientes cliente = new Clientes();
